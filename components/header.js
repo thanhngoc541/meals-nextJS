@@ -4,10 +4,8 @@ export default function Header() {
     return (
         <header>
             <Link href="/">
-                <img src={logo.src} alt="A Plate with food on it">
-                    {' '}
-                    NextLevel Food
-                </img>
+                <img src={logo.src} alt="A Plate with food on it"></img>
+                NextLevel Food
             </Link>
             <nav>
                 <ul>
